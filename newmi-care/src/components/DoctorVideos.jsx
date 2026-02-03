@@ -2,10 +2,10 @@ import React from 'react';
 import './DoctorVideos.css';
 
 const videos = [
-    { id: 1, thumbnail: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=400&h=250&fit=crop' },
-    { id: 2, thumbnail: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=400&h=250&fit=crop' },
-    { id: 3, thumbnail: 'https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=400&h=250&fit=crop' },
-    { id: 4, thumbnail: 'https://images.unsplash.com/photo-1666214280391-8ff5bd3c0bf0?w=400&h=250&fit=crop' }
+    { id: 1, thumbnail: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=400&h=250&fit=crop' },
+    { id: 2, thumbnail: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&h=250&fit=crop' },
+    { id: 3, thumbnail: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&h=250&fit=crop' },
+    { id: 4, thumbnail: 'https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=400&h=250&fit=crop' }
 ];
 
 const DoctorVideos = () => {

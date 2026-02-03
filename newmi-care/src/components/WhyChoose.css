@@ -110,12 +110,52 @@
 
 /* Responsive */
 @media (max-width: 768px) {
+    .why-choose-section {
+        padding: 2rem 1rem;
+    }
+
+    .why-choose-section h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
     .comparison-table {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
+        border-radius: 8px;
+    }
+
+    .table-header,
+    .table-row {
+        grid-template-columns: 1.5fr 0.8fr 0.8fr;
     }
 
     .table-row .col-advantage,
     .table-header .col-advantage {
-        padding: 0.75rem 1rem;
+        padding: 0.6rem 0.8rem;
+        font-size: 0.8rem;
+    }
+
+    .table-header .col-newmi,
+    .table-row .col-newmi,
+    .table-header .col-others,
+    .table-row .col-others {
+        padding: 0.6rem 0.4rem;
+    }
+
+    .table-header .col-newmi {
+        font-size: 0.7rem;
+        line-height: 1.2;
+    }
+
+    .check,
+    .cross {
+        font-size: 1.1rem;
+    }
+
+    .cta-btn {
+        width: 100%;
+        max-width: 300px;
+        padding: 0.9rem 2rem;
+        font-size: 1rem;
     }
 }

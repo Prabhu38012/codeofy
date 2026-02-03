@@ -116,21 +116,64 @@
 
 /* Responsive */
 @media (max-width: 768px) {
-    .doctor-card {
-        flex-direction: column;
-        text-align: center;
+    .doctors-section {
+        padding: 2rem 1rem;
     }
 
-    .doctor-info {
-        text-align: center;
-        padding-left: 0;
-        border-left: none;
-        border-top: 3px solid #C41E3A;
-        padding-top: 1.5rem;
+    .doctors-section h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .doctor-card {
+        flex-direction: row;
+        text-align: left;
+        gap: 1rem;
+        padding: 0.5rem;
+        align-items: flex-start;
     }
 
     .doctor-image {
-        width: 150px;
-        height: 150px;
+        width: 120px;
+        height: 120px;
+        border-radius: 12px;
+    }
+
+    .doctor-info {
+        text-align: left;
+        padding-left: 1rem;
+        border-left: 3px solid #C41E3A;
+        border-top: none;
+        padding-top: 0;
+        flex: 1;
+    }
+
+    .doctor-info h3 {
+        font-size: 1.2rem;
+    }
+
+    .doctor-info .qualifications {
+        font-size: 0.85rem;
+    }
+
+    .doctor-info .specializations {
+        font-size: 0.8rem;
+    }
+
+    .doctor-info .experience {
+        font-size: 0.85rem;
+    }
+
+    .book-btn {
+        padding: 0.9rem 2rem;
+        font-size: 1rem;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .nav-btn {
+        width: 35px;
+        height: 35px;
+        font-size: 1rem;
     }
 }

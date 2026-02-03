@@ -43,6 +43,7 @@
     border-radius: 8px;
     font-size: 1rem;
     transition: all 0.3s ease;
+    box-sizing: border-box;
 }
 
 .form-group input:focus {
@@ -73,7 +74,32 @@
 
 /* Responsive */
 @media (max-width: 768px) {
+    .book-appointment-section {
+        padding: 2rem 1rem;
+    }
+
     .appointment-card {
         padding: 1.5rem;
+        border-radius: 8px;
+    }
+
+    .appointment-card h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .form-group {
+        margin-bottom: 1rem;
+    }
+
+    .form-group input {
+        padding: 0.8rem;
+        font-size: 16px;
+        /* Prevents zoom on iOS */
+    }
+
+    .submit-btn {
+        padding: 0.9rem;
+        font-size: 1rem;
     }
 }

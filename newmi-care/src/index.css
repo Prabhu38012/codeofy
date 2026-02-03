@@ -16,6 +16,7 @@ body {
   background: #fff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 /* Custom scrollbar */
@@ -64,4 +65,33 @@ input:focus {
 
 section {
   animation: fadeIn 0.6s ease-out;
+}
+
+/* Mobile Responsive Base */
+@media (max-width: 768px) {
+  html {
+    font-size: 15px;
+  }
+
+  body {
+    line-height: 1.5;
+  }
+
+  /* Hide scrollbar on mobile for cleaner look */
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  /* Tap highlight */
+  button,
+  a,
+  input {
+    -webkit-tap-highlight-color: rgba(196, 30, 58, 0.2);
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 14px;
+  }
 }

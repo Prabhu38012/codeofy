@@ -87,7 +87,43 @@
 
 /* Responsive */
 @media (max-width: 768px) {
+    .treatments-section {
+        padding: 2rem 1rem;
+    }
+
+    .treatments-section h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
     .treatments-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .treatment-card {
+        padding-left: 0.75rem;
+    }
+
+    .treatment-card h3 {
+        font-size: 0.85rem;
+    }
+
+    .treatment-card p {
+        font-size: 0.75rem;
+        line-height: 1.5;
+    }
+
+    .treatments-section .book-btn {
+        width: 100%;
+        max-width: 300px;
+        padding: 0.9rem 2rem;
+        font-size: 1rem;
+    }
+
+    .treatments-section .nav-btn {
+        width: 35px;
+        height: 35px;
+        font-size: 1rem;
     }
 }
