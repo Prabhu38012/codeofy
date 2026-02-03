@@ -1,0 +1,93 @@
+/* Treatments Section */
+.treatments-section {
+    padding: 4rem 2rem;
+    text-align: center;
+    background: #fff;
+    border-top: 1px solid #eee;
+}
+
+.treatments-section h2 {
+    color: #C41E3A;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    font-style: italic;
+}
+
+.treatments-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    max-width: 900px;
+    margin: 0 auto 2rem;
+}
+
+.treatment-card {
+    text-align: left;
+    padding-left: 1.5rem;
+    border-left: 3px solid #C41E3A;
+}
+
+.treatment-card h3 {
+    color: #C41E3A;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+}
+
+.treatment-card p {
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.treatments-section .book-btn {
+    background: #C41E3A;
+    color: white;
+    border: none;
+    padding: 1rem 3rem;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 1.5rem;
+}
+
+.treatments-section .book-btn:hover {
+    background: #a01830;
+    transform: translateY(-2px);
+}
+
+.treatments-section .carousel-nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.treatments-section .nav-btn {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #C41E3A;
+    background: transparent;
+    color: #C41E3A;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.treatments-section .nav-btn:hover {
+    background: #C41E3A;
+    color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .treatments-grid {
+        grid-template-columns: 1fr;
+    }
+}

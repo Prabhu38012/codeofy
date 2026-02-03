@@ -1,0 +1,136 @@
+/* Doctors Section */
+.doctors-section {
+    padding: 4rem 2rem;
+    text-align: center;
+    background: #fff;
+    border-top: 1px solid #eee;
+}
+
+.doctors-section h2 {
+    color: #C41E3A;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    font-style: italic;
+}
+
+.doctor-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 700px;
+    margin: 0 auto 2rem;
+    padding: 1rem;
+}
+
+.doctor-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #f0f0f0;
+    flex-shrink: 0;
+}
+
+.doctor-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.doctor-info {
+    text-align: left;
+    padding-left: 1.5rem;
+    border-left: 3px solid #C41E3A;
+}
+
+.doctor-info h3 {
+    color: #C41E3A;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    font-style: italic;
+}
+
+.doctor-info .qualifications {
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.doctor-info .specializations {
+    color: #555;
+    margin-bottom: 0.75rem;
+    line-height: 1.5;
+}
+
+.doctor-info .experience {
+    color: #666;
+    font-size: 0.95rem;
+}
+
+.book-btn {
+    background: #C41E3A;
+    color: white;
+    border: none;
+    padding: 1rem 3rem;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 1.5rem;
+}
+
+.book-btn:hover {
+    background: #a01830;
+    transform: translateY(-2px);
+}
+
+.carousel-nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.nav-btn {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #C41E3A;
+    background: transparent;
+    color: #C41E3A;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-btn:hover {
+    background: #C41E3A;
+    color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .doctor-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .doctor-info {
+        text-align: center;
+        padding-left: 0;
+        border-left: none;
+        border-top: 3px solid #C41E3A;
+        padding-top: 1.5rem;
+    }
+
+    .doctor-image {
+        width: 150px;
+        height: 150px;
+    }
+}

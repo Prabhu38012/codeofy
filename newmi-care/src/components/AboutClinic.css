@@ -1,0 +1,73 @@
+/* About Section */
+.about-section {
+    padding: 4rem 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.about-section h2 {
+    color: #C41E3A;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-style: italic;
+}
+
+.clinic-image-wrapper {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.clinic-image-wrapper img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.location-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #C41E3A;
+    color: white;
+    padding: 1rem 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.9rem;
+}
+
+.location-icon {
+    font-size: 1.2rem;
+}
+
+.about-description {
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.about-description p {
+    color: #444;
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+.about-description strong {
+    color: #333;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .clinic-image-wrapper img {
+        height: 250px;
+    }
+
+    .location-overlay {
+        font-size: 0.8rem;
+        padding: 0.75rem 1rem;
+    }
+}

@@ -1,0 +1,41 @@
+/* App Styles */
+.app {
+  min-height: 100vh;
+  background: #fff;
+}
+
+/* Footer */
+.footer {
+  background: #1E4D8C;
+  color: white;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer .logo-newmi {
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+}
+
+.footer .logo-care {
+  font-size: 1rem;
+  color: white;
+  vertical-align: sub;
+}
+
+.footer p {
+  margin: 1rem 0;
+  opacity: 0.9;
+}
+
+.footer-address {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  line-height: 1.6;
+}

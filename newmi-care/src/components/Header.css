@@ -1,0 +1,168 @@
+/* Header Section */
+.header-section {
+  width: 100%;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #fff;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.logo-newmi {
+  color: #C41E3A;
+}
+
+.logo-care {
+  color: #C41E3A;
+  font-size: 1rem;
+  vertical-align: sub;
+  margin-left: 2px;
+}
+
+.call-btn {
+  background: transparent;
+  color: #C41E3A;
+  border: 2px solid #C41E3A;
+  padding: 0.6rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.call-btn:hover {
+  background: #C41E3A;
+  color: white;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  margin: 0 2rem;
+  border: 3px solid #C41E3A;
+  border-radius: 8px;
+  overflow: hidden;
+  min-height: 350px;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.hero-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 2rem;
+  z-index: 2;
+  background: linear-gradient(to right, rgba(255,255,255,0.95) 40%, transparent 80%);
+  height: 100%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero h1 {
+  color: #333;
+  font-size: 2.2rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  font-family: 'Georgia', serif;
+}
+
+.hero-divider {
+  width: 200px;
+  height: 3px;
+  background: linear-gradient(to right, #C41E3A, #8B0000);
+  margin-bottom: 1rem;
+}
+
+.clinic-info {
+  color: #333;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Stats Bar */
+.stats-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1E4D8C;
+  margin: 0 2rem;
+  padding: 1.5rem 2rem;
+  border: 3px solid #C41E3A;
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 3rem;
+}
+
+.stat-number {
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.stat-label {
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.stat-divider {
+  width: 2px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-content {
+    width: 100%;
+    background: rgba(255,255,255,0.9);
+  }
+  
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+  
+  .stats-bar {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .stat-divider {
+    width: 60px;
+    height: 2px;
+  }
+  
+  .stat-item {
+    padding: 0.5rem 0;
+  }
+}
