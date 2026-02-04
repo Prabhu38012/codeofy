@@ -7,10 +7,7 @@ const Header = () => {
       {/* Navigation */}
       <nav className="navbar">
         <div className="logo">
-          <span className="logo-text">
-            <span className="logo-newmi">newm<span className="logo-i">i</span></span>
-          </span>
-          <span className="logo-care">care</span>
+          <img src="/newmi-logo.png" alt="Newmi Care" className="logo-image" />
         </div>
         <button className="call-btn">CALL NOW</button>
       </nav>
