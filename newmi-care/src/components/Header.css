@@ -220,36 +220,125 @@
 }
 
 @media (max-width: 768px) {
-  .hero-wrapper {
-    margin: 0 1rem;
+  .navbar {
+    padding: 0.75rem 1rem;
   }
 
-  .hero-content {
-    width: 100%;
-    background: rgba(255, 255, 255, 0.92);
+  .logo-text {
+    font-size: 2rem;
   }
 
-  .hero h1 {
-    font-size: 1.5rem;
+  .logo-care {
+    font-size: 0.7rem;
   }
 
-  .stats-bar {
-    padding: 1.2rem 0.5rem;
-  }
-
-  .stat-item {
-    padding: 0 1rem;
-  }
-
-  .stat-number {
-    font-size: 1.6rem;
-  }
-
-  .stat-label {
+  .call-btn {
+    padding: 0.5rem 1rem;
     font-size: 0.75rem;
   }
 
+  .hero-wrapper {
+    margin: 0 0.5rem;
+  }
+
+  .hero {
+    height: 280px;
+  }
+
+  .hero-left-strip {
+    width: 5px;
+  }
+
+  .hero-content {
+    width: 60%;
+    padding: 1rem 1.2rem;
+    background: linear-gradient(to right,
+        rgba(255, 255, 255, 0.95) 0%,
+        rgba(255, 255, 255, 0.85) 60%,
+        rgba(255, 255, 255, 0.3) 80%,
+        transparent 100%);
+  }
+
+  .hero h1 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .hero-divider {
+    width: 120px;
+    height: 2px;
+    margin-bottom: 0.75rem;
+  }
+
+  .clinic-info {
+    font-size: 0.75rem;
+    line-height: 1.5;
+  }
+
+  .stats-bar {
+    padding: 1rem 0.25rem;
+  }
+
+  .stat-item {
+    padding: 0 0.5rem;
+    white-space: nowrap;
+  }
+
+  .stat-number {
+    font-size: 1.2rem;
+    white-space: nowrap;
+  }
+
+  .stat-label {
+    font-size: 0.6rem;
+    white-space: nowrap;
+  }
+
   .stat-divider {
-    height: 50px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 0.5rem 0.75rem;
+  }
+
+  .logo-text {
+    font-size: 1.6rem;
+  }
+
+  .call-btn {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.7rem;
+  }
+
+  .hero {
+    height: 250px;
+  }
+
+  .hero-content {
+    width: 55%;
+    padding: 0.75rem 1rem;
+  }
+
+  .hero h1 {
+    font-size: 1rem;
+  }
+
+  .clinic-info {
+    font-size: 0.65rem;
+  }
+
+  .stat-number {
+    font-size: 1rem;
+  }
+
+  .stat-label {
+    font-size: 0.55rem;
+  }
+
+  .stat-divider {
+    height: 35px;
   }
 }
